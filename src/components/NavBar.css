@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-wrapper {
+  background-color: #3f51b5;
+  color: white;
+  height: 8vh;
+  text-transform: capitalize;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  box-shadow: 2px 2px 15px 2px gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-txt {
+  display: flex;
+
+  align-items: center;
+  height: 110%;
+  margin-left: 3%;
+}
+.nav-txt > h2 {
+  margin-left: 10px;
+  line-height: 18px;
+  font-size: 24px;
+}
+.cartIcon {
+  margin-right: 3%;
+}
+.link {
+  color: #fff;
+  text-decoration: none;
+}
